@@ -6,7 +6,7 @@ class My_Error_Zero(Exception):
     pass
 
 try:
-    in_data=int(input('Enter a divisible number:'))
+    in_data = int(input('Enter a divisible number:'))
     divider = int(input('Enter a divider number:'))
     if divider==0:
         raise My_Error_Zero('Only Positive divider!')
@@ -17,4 +17,3 @@ except My_Error_Zero as err:
 else:
     print(in_data/divider)
 
-100

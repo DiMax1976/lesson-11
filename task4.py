@@ -44,4 +44,5 @@ class Scaner(Office_equipment):
 
 
 bid_printer = Printer("LG", "laser", 25000, 250)
+
 print(bid_printer)
