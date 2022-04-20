@@ -26,8 +26,10 @@ class Printer(Office_equipment):
     def __init__(self, name, type_equipment, price, speed_print):
         super().__init__(name, type_equipment, price)
         self.speed_print = speed_print
+
     def __str__(self):
         return f"Brand: {self.name}, Type of print {self.type_equipment}, Price: {self.price}, Speed of print {self.speed_print}"
+
 
 class Xerox(Office_equipment):
     def __init__(self, name, type_equipment, price, print_type):
